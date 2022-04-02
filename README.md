@@ -28,12 +28,10 @@ Nordstrom is an international Online Shopping Store. Founded in 1901 by John W. 
 ## Core Functionalities
 * Login/Signup
 * Product Page
-* Sorting the products as per prices
-* Filter the products by brand
-* Zooming in the product
+* Filter and sorting
 * Add to cart
-* Remove the product from cart
 * Checkout
+* Payment
 
 # Quick Tour to our Project
 1. This is the landing page of our website.
@@ -47,14 +45,4 @@ Nordstrom is an international Online Shopping Store. Founded in 1901 by John W. 
 3. This the shop by category page where the user can find all the products related to women's category.
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1648662636897/0Hb15eW8J.png?auto=compress,format&format=webp)
 
-4. After adding products to the bag, the user can go to the checkout page , where he can see all the prodcuts that are added to the bag and the order summary that include the total cost of the products.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1648663121530/r9H1U0a_g.png?auto=compress,format&format=webp)
-
-5. This is the payment gateway where the user has to provide the card details and make the payment and place the order.
-
-![](https://github.com/neerajmasai/nordstrom_clone/raw/main/images/payment.PNG)
-
-6. Once the payment is done and the order is successfully placed and it will redirect to the payment process page and after 3 seconds it will redirect the user to the home page of the website.
-
-![](https://github.com/neerajmasai/nordstrom_clone/raw/main/images/processing.PNG)
