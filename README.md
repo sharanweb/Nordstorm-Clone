@@ -1,7 +1,7 @@
 # Nordstrom Clone
 As a part of Unit-4 Construct Week Project. We have cloned Nordstrom Website.
 
-# Demo Link : https://nordstormunit4.netlify.app/
+# Demo Link : https://symphonious-naiad-a61d83.netlify.app/
 
 ## Team Size
 6
