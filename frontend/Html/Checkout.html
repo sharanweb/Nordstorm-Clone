@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="../styles/Checkout.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <script src="https://kit.fontawesome.com/96fc2efcb3.js" crossorigin="anonymous"></script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="header"> </div>
+        
+    </div>
+    <div id="ck_container">
+        <div id="ckleft">
+            <div id="cksecure"></div>
+            <div id="ckemail">
+                <p>Delivery</p>
+                <input id="m1" type="text" placeholder="Email" required>
+            </div>
+            <div id="ckname">
+                <input type="text" id="n1" placeholder="First Name" required>
+                <input type="text" id="n2" placeholder="Last Name" required>
+            </div>
+            <div id="ckaddress">
+                <input id="m2" placeholder="Address" required>
+            </div>
+            <div id="ckcode">
+                <input type="text" id="n3" placeholder="Adress 2 (Optional)">
+                <input type="text" id="n4" placeholder="Postal Code" required>
+            </div>
+            <div id="ckcity">
+                <input type="text" id="n5" placeholder="City" required>
+                <input type="text" id="n6" placeholder="Region(Optional)">
+            </div>
+            <div id="ckphone">
+                <input type="text" id="n7" placeholder="Phone" required>
+                <input type="text" id="n8" placeholder="Location" required> 
+            </div>
+            
+            <div id="cksub">
+                <button id="submitBtn""">Submit</button>
+                
+            </div>
+            <div id="payments">
+                <p>Payment</p>
+            </div>
+            <div id="card">
+                <div id="sameadd">
+                    <input type="checkbox" id="tick" >
+                    <p>My Billing Address is the same as my delivery address</p>
+                </div>
+                <div id="selectcard">
+                    <input type="radio" id="radio" required>
+                    <p>Credit or Debit Card</p>
+                </div>
+                <input type="number" id="cardnumber" placeholder="Card Number">
+                <div id="carddate">
+                    <input type="text" placeholder="MM/YY" required id="datecard">
+                    <input type="number" placeholder="CVV" required id="cvv">
+                </div>
+                <hr>
+                <div id="pay">
+                    <button id="placeOrder">Place order</button>
+                    <p>This order total is 100% guarnteed. There will be no additional charges due upon receipt.</p>
+                </div>
+
+            </div>
+        </div>
+        <div id="ckright">
+            <p id="yourorder">Your Order</p>
+            <div id="continue">
+                <p>Continue</p>
+
+            </div>
+            <div id="itemshow">
+                <p>Items</p>
+                <p id="totalshow"></p>
+            </div>
+            <div id="shipping">
+                <p>Shipping</p>
+                <p id="shippingshow"></p>
+            </div>
+        
+            <div id="taxes">
+                <p>Cuties & Taxes</p>
+                <p id="taxshow"></p>
+            </div>
+            <div id="finaltotal">
+                <p>Total</p>
+                <p id="totalp"></p>
+            </div>
+            <div id="promodiv">
+                <div id="procode">
+                    <div id="plusSign">+</div>
+                    <p style="text-align: left; margin-left: 10px;">Promo Code</p>
+                </div>
+                <div id="applypromo">
+                    <input type="text" id="promotag" placeholder="Enter Your Promo Code">
+                    <button id="promobutton">Apply</button>
+                </div>
+                <div id="cartappend">
+                   
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- <div id="ck_footer"> -->
+        <div id="footer_div">
+        </div>
+
+    <!-- </div> -->
+    
+</body>
+<script src="../scripts/Checkout.js"></script>
+
+<script type="module" src="../scripts/index.js"></script>
+
+</html>

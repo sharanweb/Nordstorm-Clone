@@ -1,0 +1,341 @@
+/* <style> */
+/* styles for slides and inbetween products things styles*/
+/* #carouselExampleIndicators0-1{
+
+} */
+
+
+.d-block .w-100{
+  margin-top: 250px;
+}
+
+#Home_great_deal{
+  font-size: 25px;
+  color: #393939;
+  font-weight: 700;
+  width:97%;
+  margin-top:50px;
+  padding: 5px;
+}
+#subs_img{
+  cursor:pointer;
+  width:99.5%;
+  padding: 0px 20px;
+
+}
+#carouselExampleIndicators{
+  /* border: 2px solid red; */
+  width: 99.5%;
+  padding: 40px 20px;
+
+}
+#carouselExampleIndicators_2{
+  width: 99.5%;
+  padding: 40px 20px;
+
+}
+#carouselExampleIndicators_3{
+  width: 99.5%;
+  padding: 40px 20px;
+}
+#carouselExampleIndicators_4{
+  width: 99.5%;
+  padding: 40px 20px;
+}
+#home_center_deals{
+  /* border: 2px solid red; */
+  margin-top: 30px;
+  font-size: 25px;
+  color: #393939;
+  font-weight: 700;
+  width:100%;
+  text-align: center;
+}
+#Home_category_shop{
+  /* border: 2px solid red; */
+  width: 97%;
+  margin: auto;
+  height: 262px;
+  display: flex;
+  
+}
+#home_category_divs{
+  /* border: 2px solid red; */
+  width: 17%;
+  height: 85%;
+
+}
+#img_home_deal{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+
+}
+#img_home_deal_heading{
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+#Currently{
+  text-align: center;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+#Currently_loving{
+  font-weight: 700;
+  font: size 16px;
+  font-size: 21px;
+  color: #393939;
+}
+/* #currently_loving_products- css */
+
+#harkuch_hi{
+  width:19.5%;
+  height: 270px;
+
+}
+#harkuch_hi:hover{
+  background-color: #3e8e41;
+  color: white;
+}
+.carousel-item{
+  /* border: 2px solid red; */
+  width:90%;
+  margin: auto;
+}
+/* #slider_1{
+  /* border: 20px solid rgb(129, 111, 111); */
+/* } */
+#slider_text{
+  /* border-botom:2px solid black; ; */
+  text-decoration: none;
+  color: white
+}
+
+/* text with links = prop ----slider 1--*/
+#slider_content{
+  color: black;
+  padding-top: 0px;
+  padding: 20px;
+}
+
+
+#slider_content_2{
+  /* border: 2px solid black; */
+  color: rgb(29, 23, 23);
+  width: 70%;
+}
+
+#slider_div_3{
+  text-align:left;
+  /* border: 2px solid black; */
+  width: 30%;
+}
+
+#slider_0{
+  color: black;
+ 
+}
+#slider_3{
+  color:white;
+
+  padding-right: 10px;
+}
+
+/* </style> */
+
+/* <style> */
+ #home_page_products_slides{
+        width: 100%;
+    }
+
+    #products_slider_1{
+      width: 97%;
+      /* .element::-webkit-scrollbar { width: 0 !important } */
+      /* border: 2px solid red; */
+      overflow: scroll;
+      display: flex;
+      margin: auto;
+      margin-bottom: 35px;
+
+    }
+    
+    #div_for_info{
+        font-family: Brandon Text,Arial,sans-serif;
+        width: 330px;
+        padding-right: 21px;
+    }
+    #prod_img_id{
+        /* width: 100%; */
+        width: 260px;
+    }
+    #prod_name_id{
+        color: #D61F27;
+        font-size: 13px;
+        padding: 8px, 0px, 0px, 0px;
+    }
+    #prod_name2_id{
+        color: #757575;
+        margin: 0px;
+        font-size: 13px;
+    }
+    #prod_price_id{
+        color:#D61F27;
+        font-size: 13px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+      
+    }
+    #prod_cutprice_id{
+        color: #757575;
+        text-decoration: line-through;
+        font-size: 13px;
+    }
+    #prod_offer_id{
+        color: #757575;
+        font-size: 13px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin: 0px;
+    }
+    #prod_extra_id{
+        color: #757575;
+        margin-top: 5.2px;
+
+        font-size: 13px;
+    }
+    #price_cutprice_merge{
+        display:flex;
+        /* border: 1px solid red; */
+        margin:0px;
+
+    }
+
+    /* ------2 products in one width----- */
+    #catag_of_2{
+        font-family: Brandon Text,Arial,sans-serif;
+
+        width: 97%;
+        /* border: 5px solid red; */
+        height: 600px;
+        margin: auto;
+        display: flex;
+    }
+    #catag_of_one{
+        width: 50%;
+        /* border: 2px solid red; */
+        height: 260px;
+    }
+    #catag_of_two{
+        width: 50%;
+        /* border: 2px solid black; */
+    }
+    #catag_of_one_img{
+        width: 100%;
+
+    }
+    #catag_of_two_img{
+        width: 100%;
+    }
+    #catag_of_one_text{
+        width: 100%;
+        height: 104px;
+        /* border: 3px solid black; */
+    }
+    #catag_of_one_prom{
+        display: flex;
+    }
+    #prom_cat_one{
+        padding-right: 20px;
+        text-decoration: underline;
+        font-size:13px;
+        cursor: pointer;
+
+    }
+    #prom_cat_two{
+        padding-right: 20px;
+        text-decoration: underline;
+        font-size:13px;
+        cursor: pointer;
+
+    }
+    #cat_heading_one_1, #cat_heading_two_1{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    #cat_heading_one_2, #cat_heading_two_2{
+        font-size: 13px;
+    }
+
+
+    #nord_img{
+        /* border: 1px solid; */
+        padding: auto;
+    }
+/* </style> */
+
+/* <style> */
+  /* footer */
+  #footer{
+        font-family: Brandon Text,Arial,sans-serif;
+        margin: auto;
+        width:97%;
+        background-color: #ffffff;
+        margin-top: 20px;
+        /* border-top: 3px solid black; */
+        height: auto;;
+    }
+    #overview{
+        display: flex;
+        /* border: 1px solid black; */
+        height: auto;
+    }
+    
+    #overview_2{
+        flex: 3;
+        /* border: 2px solid red; */
+    }
+    #footer_heading{
+        color: #393939;
+        font-size: 15px;
+    }
+    #footer_cont{
+        color: #393939;
+        font-size: 13px;
+    }
+    #overview_1{
+        flex: 1.5;
+        /* border: 2px solid red; */
+        margin-left:40px ;
+        justify-content:left
+    }
+    #footer_heading{
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    #footer_cont{
+        font-size: 13px;
+        cursor: pointer;
+    }
+    #overview_two{
+        display: flex;
+
+    }
+
+    #footer_cont:hover{
+        border-bottom: 2px solid #393939;
+    }
+    #overview_two{
+        margin: left 40px;
+        justify-content: space-around;
+        /* border: 2px solid #393939; */
+    }
+
+/* </style> */

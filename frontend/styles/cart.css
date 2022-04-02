@@ -1,0 +1,201 @@
+
+#container{
+    width:80%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 150px;
+}
+
+#leftside_div{
+    width: 70%;
+}
+
+#buttons{
+    display: flex;
+    width:auto;
+    height:auto;
+    cursor:pointer;
+
+}
+
+#shoppingBag_btn{
+    height:35px;
+    border: 0.5px solid silver;
+    width:200px;
+    background-color:rgb(184, 184, 184);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#saveForLater_btn{
+    height:35px;
+    width:200px;
+    border: 0.5px solid silver;
+    background-color:white;
+    text-align:center;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#shopping_heading{
+    font-size:25px;
+    font-weight: 600;
+
+}
+
+#shopping_des{
+    font-size: 14px;
+
+}
+
+#gift_div{
+    display: flex;
+}
+
+#gift_icon{
+    height:35px;
+    margin-left: 0px;
+    margin-top: 2px;
+}
+
+#gift_p{
+    font-size:15px;
+    background-color: rgb(54, 53, 53);
+    color:white;
+}
+
+#items_maindiv{
+    height:auto;
+    width: 850px;
+    border-top: 0.2px solid grey;
+    border-bottom: 0.2px solid grey;
+
+}
+
+#subtotal_maindiv{
+    display: flex;
+    width:100%;
+    margin-top: 40px;
+}
+
+#subtotal_div1{
+    font-size: 14px;
+}
+
+#payment_methods_img{
+    height: 30px;
+}
+
+#subtotal_div2{
+    width:300px;
+    margin-left: 150px;
+
+}
+#total_div{
+    display: flex;
+    margin-top: 10px;
+    width:380px;
+    font-weight: 550;
+}
+
+#total_div_div1{
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+#total_div_div2{
+    font-size: 18px;
+    align-self: flex-end;
+    margin-left: 200px;
+    width:100px;
+}
+
+#checkout_btn{
+    height: 50px;
+    width:380px;
+    background-color: rgb(34, 34, 34);
+    color:white;
+    font-size: 17px;
+    margin-top:20px;
+    border:none;
+    cursor: pointer;
+
+}
+
+#mainDiv{
+    display: flex;
+    width:100%;
+    height:auto;
+}
+
+#subDiv1{
+    width:45%;
+    display: flex;
+}
+
+#subDiv2{
+    width:20%;
+}
+
+#subDiv3{
+    width:35%;
+}
+
+#price2{
+    font-weight:600;
+}
+
+#striked{
+    text-decoration: line-through;
+}
+
+#delivery_div{
+    display: flex;
+    font-size: 13px;
+    width:400px;
+}
+
+#delivery_img{
+    height:50px;
+}
+
+#buttonDiv{
+    display:flex;
+}
+
+#mainDiv{
+    width:1600px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+#image{
+    height:150px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#removeBtn{
+    height:20px;
+    width:60px;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size: 13px;
+    cursor:pointer;
+    
+}
+
+#saveBtn{
+    height:20px;
+    width:100px;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size: 13px;
+    cursor:pointer;
+}

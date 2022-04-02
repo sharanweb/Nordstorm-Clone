@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <script src="https://kit.fontawesome.com/96fc2efcb3.js" crossorigin="anonymous"></script>
+    <title>Norstrom</title>
+
+
+</head>
+
+<body> 
+    
+    <div id="header">
+
+    </div>
+
+
+    <div id="midContainer">
+        <div id="mainFilter">
+            <div id="sideFilter">
+                <div id="subDivFilter">
+                    <!-- <h2>Norstrom</h2> -->
+                    <button class="accordion">Price</button>
+                    <div class="panel" id="panel">
+                    <label class="container">10 to 1000
+                    <input type="radio" name="radio" value="low" class="checkmark1" onchange="myFunction()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">1001 to 9999
+                    <input type="radio" name="radio" value="high" class="checkmark2" onchange="myFunction1()">
+                    <span class="checkmark"></span>
+                    </label>
+                    </div>
+
+                    <button class="accordion">Brand</button>
+                    <div class="panel">
+                    <label class="container">dFAME
+                    <input type="radio" name="radio" id="b1" value="dFAME" onchange="bmyFunction1()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">STATUS
+                    <input type="radio" name="radio" class="b2" value="STATUS" onchange="bmyFunction2()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">PEPE JEANS
+                    <input type="radio" name="radio" class="b3" value="PEPE_JEANS" onchange="bmyFunction3()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">INDIAN
+                    <input type="radio" name="radio" class="b4" value="INDIAN"  onchange="bmyFunction4()">
+                    <span class="checkmark"></span>
+                    </label>
+                     <label class="container">CELIO
+                    <input type="radio" name="radio" class="b5" value="CELIO"  onchange="bmyFunction5()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">KAPPA
+                    <input type="radio" name="radio" class="b6" value="KAPPA" onchange="bmyFunction6()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">JACK
+                    <input type="radio" name="radio" class="b2" value="JACK">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">CODE
+                    <input type="radio" name="radio" class="b1" value="CODE">
+                    <span class="checkmark"></span>
+                    </label>
+                     <label class="container">PROLINE
+                    <input type="radio" name="radio" class="b1" value="PROLINE">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">UNITED
+                    <input type="radio" name="radio" class="b5" value="UNITED">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">AMERICAN
+                    <input type="radio" name="radio" class="b3" value="AMERICAN">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">DENIMIZE
+                    <input type="radio" name="radio" class="b6" value="DENIMIZE">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">FORCA
+                    <input type="radio" name="radio" class="b5" value="FORCA">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">VAN HUIESEN
+                    <input type="radio" name="radio" class="b1" value="VAN">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">ARROW
+                    <input type="radio" name="radio" class="b1" value="ARROW">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">SMILEYWORLD
+                    <input type="radio" name="radio" class="b1" value="SMILEYWORLD">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">FAME
+                    <input type="radio" name="radio" class="b1" value="FAME">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">PARX
+                    <input type="radio" name="radio" class="b1" value="PARX">
+                    <span class="checkmark"></span>
+                    </label>
+                    </div>
+                
+                    <button class="accordion">Color</button>
+                    <div class="panel">
+                    <label class="container">Blue
+                    <input type="radio" name="radio" class="c1" value="Blue" onchange="cmyFunction1()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">White
+                    <input type="radio" name="radio" class="c2" value="White" onchange="cmyFunction2()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Green
+                    <input type="radio" name="radio" class="c3" value="Green" onchange="cmyFunction3()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Yellow
+                    <input type="radio" name="radio" class="c4" value="Yellow" onchange="cmyFunction4()">
+                    <span class="checkmark"></span>
+                    </label>
+                     <label class="container">Beige
+                    <input type="radio" name="radio" class="c5" value="White" onchange="cmyFunction5()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Orange
+                    <input type="radio" name="radio" class="c6" value="Orange" onchange="cmyFunction6()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Pink
+                    <input type="radio" name="radio" class="c7" value="Pink" onchange="cmyFunction7()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Red
+                    <input type="radio" name="radio" class="c8" value="Red" onchange="cmyFunction8()">
+                    <span class="checkmark"></span>
+                    </label>
+                    </div>
+
+                    <button class="accordion">Feature</button>
+                    <div class="panel" id="panel">
+                    <label class="container">Compression
+                    <input type="radio" name="radio" value="low" class="checkmark1" onchange="myFunction()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Hooded
+                    <input type="radio" name="radio" value="high" class="checkmark2" onchange="myFunction1()">
+                    <span class="checkmark"></span>
+                    </label>
+                    </div>
+
+                    <button class="accordion">Material</button>
+                    <div class="panel" id="panel">
+                    <label class="container">Cotton
+                    <input type="radio" name="radio" value="low" class="checkmark1" onchange="myFunction()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Wool
+                    <input type="radio" name="radio" value="high" class="checkmark2" onchange="myFunction1()">
+                    <span class="checkmark"></span>
+                    </label>
+                    </div>
+
+                    <button class="accordion">Sleeve Length</button>
+                    <div class="panel" id="panel">
+                    <label class="container">Cap Sleeve
+                    <input type="radio" name="radio" value="low" class="checkmark1" onchange="myFunction()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Long Sleeve
+                    <input type="radio" name="radio" value="high" class="checkmark2" onchange="myFunction1()">
+                    <span class="checkmark"></span>
+                    </label>
+                    </div>
+
+                    <button class="accordion">Sale</button>
+                    <div class="panel" id="panel">
+                    <label class="container">Regular
+                    <input type="radio" name="radio" value="low" class="checkmark1" onchange="myFunction()">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Sale
+                    <input type="radio" name="radio" value="high" class="checkmark2" onchange="myFunction1()">
+                    <span class="checkmark"></span>
+                    </label>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="prodivMa"></div>
+    </div>
+
+
+    <div id="footer_div"></div>
+
+
+</body>
+
+
+</html>
+<script src="../scripts/prodMain.js"></script>
+<script type="module" src="../scripts/index.js"></script>
+

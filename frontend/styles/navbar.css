@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cookie&family=Dancing+Script:wght@400;500;600;700&family=Nanum+Gothic&family=Quicksand:wght@300;400;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.1px;
+
+}
+
+#header{
+    height:auto;
+    margin-bottom: 30px;
+}
+
+#navbar {
+    width: 99.8%;
+    height: auto;
+    margin-bottom: 130px;
+}
+
+#navbar_div1 {
+    background-color: black;
+    height: 30px;
+    color: white;
+    display: flex;
+}
+
+#navbar_div1_div1 {
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    width: 90%;
+    margin-top: 6px;
+}
+
+#navbar_div1_div2 {
+    width: 60px;
+    color: white;
+    display: flex;
+}
+
+#flag_img {
+    height: 15px;
+    width: 15px;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-right: 6px;
+}
+
+#navbar_div1_div2>p {
+    margin-top: 5px;
+}
+
+#navbar_div2 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 0%;
+}
+
+#logo_img {
+    height: 26px;
+    margin-left: 3%;
+}
+
+#search_div {
+    /* margin-top: -20px; */
+    height: 10px;
+    margin-left: 65%;
+}
+
+#search_div>div {
+    display: flex;
+}
+
+#searach_icon {
+    height: 30px;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+
+#search_div>div>p {
+    margin-top: 2px;
+}
+
+#searchbar_div {
+    visibility: hidden;
+    /* position: absolute; */
+    display: flex;
+    height: 60px;
+    width: 300px;
+    margin-left: 68%;
+    margin-top: -160px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#searchbar_div p {
+    margin-right: 5px;
+    margin-top: 0px;
+    font-size: 25px;
+    color: rgb(59, 59, 59);
+}
+
+#register_dropdown {
+    height: 0px;
+    visibility: hidden;
+    background-color: white;
+    margin-left: 82%;
+    margin-top: -50px;
+    padding: 12px;
+    font-size: 14px;
+    color: rgb(63, 62, 62);
+    width: 220px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#register_dropdown>div {
+    margin-bottom: 15px;
+    background-color: white;
+
+}
+
+
+#search_bar {
+    margin: auto;
+    outline: none;
+    border: none;
+    width: 220px;
+    height:25px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+#signup_a{
+    text-decoration: none;
+}
+
+#register_div {
+    display: inline-flex;
+    width: 100px;
+    margin-left: 20%;
+    margin-top: -50px;
+    text-decoration: none;
+    color:rgb(27, 27, 27);
+}
+
+#register_div > a >p:nth-child(1) {
+    font-size: 16px;
+
+    margin-top: 8px;
+}
+
+#register_div > a >p:nth-child(2) {
+    font-size: 10px;
+    margin-left: 4px;
+    margin-bottom: 2px;
+}
+
+#cart_img {
+    height: 50px;
+    margin-top: -15px;
+}
+
+#cartNo_div{
+    margin-top: -31px;
+    margin-left: 32px;
+    text-decoration: none;
+}
+
+#cart_a{
+    text-decoration: none;
+    color: black;
+}
+
+#navbar_div3 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#navbar_div3>div {
+    margin-left: 40px;
+    margin-right: 45px;
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+}
+
+#navbar_div3>div:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+    cursor:pointer;
+}
+#navbar_div3>div:nth-child(1):hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    cursor:pointer;
+
+}
+
+#navbar_div3>div:nth-child(1) {
+    color: red;
+}
+
+
+
+#dropdown_maindiv{
+    visibility: hidden;
+    width:100%;
+    height:0px;
+    margin-top:30px;
+    background-color: transparent;
+    overflow: hidden;
+    border: 1px solid blue;
+}
+
+
+#bold_text{
+    font-weight: 700;
+    font-size: 14px;
+}
+#sale{
+    visibility:hidden;
+    display: flex;
+    width:100%;
+    height:auto;
+    padding:20px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+}
+
+#sale > div{
+    width: 200px;
+    margin-left: 30px;
+}
+
+
+
+#women{
+    visibility:hidden;
+    position:relative;
+    margin-top: 50px;
+    display: flex;
+    width:100%;
+    height:auto;
+    padding:20px;
+    margin-top: -570px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+}
+
+#women > div{
+    width: 200px;
+    margin-left: 30px;
+}
+
+
+
+#men{
+    visibility:hidden;
+    display: flex;
+    width:100%;
+    height:auto;
+    padding:20px;
+    margin-top: -750px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+}
+
+#men > div{
+    width: 200px;
+    margin-left: 30px;
+}
+
+
+
+#kids{
+    visibility:hidden;
+    display: flex;
+    width:100%;
+    height:auto;
+    padding:20px;
+    margin-top: -760px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+}
+
+#kids > div{
+    width: 200px;
+    margin-left: 30px;
+}
+
+
+
+#youngAdult{
+    visibility:hidden;
+    display: flex;
+    width:100%;
+    height:auto;
+    padding:20px;
+    margin-top: -710px;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(71, 71, 71);
+}
+
+#youngAdult > div{
+    width: 200px;
+    margin-left: 30px;
+}
+
+
+#activeWear{
+    visibility:hidden;
+    display: flex;
+    width:100%;
+    height:auto;
+    padding:20px;
+    margin-top: -650px;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(71, 71, 71);
+}
+
+#activeWear > div{
+    width: 200px;
+    margin-left: 30px;
+}
+
+
+#home{
+    visibility:hidden;
+    display: flex;
+    width:100%;
+    height:auto;
+    padding:20px;
+    margin-top: -650px;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(71, 71, 71);
+}
+
+#home > div{
+    width: 200px;
+    margin-left: 30px;
+}
+
+
+#beauty{
+    visibility:hidden;
+    display: flex;
+    width:100%;
+    height:auto;
+    padding:20px;
+    margin-top: -620px;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(71, 71, 71);
+}
+
+#beauty > div{
+    width: 200px;
+    margin-left: 30px;
+}
+
+
+#designer{
+    visibility:hidden;
+    display: flex;
+    width:100%;
+    height:auto;
+    padding:20px;
+    margin-top: -720px;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(71, 71, 71);
+}
+
+#designer > div{
+    width: 200px;
+    margin-left: 30px;
+}
+
+
+#gifts{
+    visibility:hidden;
+    display: flex;
+    width:100%;
+    height:auto;
+    padding:20px;
+    margin-top:-660px;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(71, 71, 71);
+}
+
+#gifts > div{
+    width: 200px;
+    margin-left: 30px;
+}
+
+
+#brands{
+    visibility:hidden;
+    display: flex;
+    width:100%;
+    height:auto;
+    padding:20px;
+    margin-top: -330px;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(71, 71, 71);
+}
+
+#brands > div{
+    width: 200px;
+    margin-left: 30px;
+}
+
+
+
+
