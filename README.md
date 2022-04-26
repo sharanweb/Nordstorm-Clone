@@ -45,5 +45,10 @@ Nordstrom is an international Online Shopping Store. Founded in 1901 by John W. 
 
 3. This the shop by category page where the user can find all the products related to women's category.
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1648662636897/0Hb15eW8J.png?auto=compress,format&format=webp)
+4. This is the Cart Page.
+![Screenshot (249)](https://user-images.githubusercontent.com/96072906/165318194-207b97f9-6d0e-4001-9a66-668db7c0833e.png)
+
+
+4. This 
 
 
