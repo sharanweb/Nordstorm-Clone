@@ -49,6 +49,6 @@ Nordstrom is an international Online Shopping Store. Founded in 1901 by John W. 
 ![Screenshot (249)](https://user-images.githubusercontent.com/96072906/165318194-207b97f9-6d0e-4001-9a66-668db7c0833e.png)
 
 
-4. This 
+
 
 
